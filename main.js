@@ -31,3 +31,4 @@ allCanvas.forEach((el) => {
   // tạo biểu đồ
   new Chart(el, config);
 });
+

@@ -363,3 +363,43 @@
     text-align: center;
 }
 
+.buton-left1 a, .buton-right1 a{
+  text-decoration: none;
+}
+
+.buton-left a, .buton-right a{
+  text-decoration: none;
+}
+
+
+.buton-left1{
+  width: 100px;
+  height: 50px;
+  background-color: #d1cece;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buton-left1:hover{
+  background-color: #fff;
+}
+
+.buton-right1{
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.buton-right1:hover{
+  background-color: #ece9e9;
+}

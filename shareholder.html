@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css" />
-
 </head>
 
 <body>
@@ -36,7 +34,7 @@
             <div class="sidebar">
                 <div class="sidebar_header">
                     <img src="./assets/img/home.png" alt="" class="sidebar_icon">
-                    <p class="sidebar_value">Dashboard</p>
+                    <p class="sidebar_value">Benefit</p>
                 </div>
                 <ul class="sidebar_list">
                     <li class="sidebar_item">
@@ -87,110 +85,92 @@
                 </ul>
             </div>
             
-            <div class="container_body">
+            <div class="container_body2">
                 
                 <div class="header">
-                    <h2 class="header_title">Total Income</h2>
+                    <h2 class="header_title">Dashboard</h2>
                 </div>
 
-                <div class="all-total">
+                <div class="item-benefit">
+                    <div class="benefit-two">
+                        <div class="chart-benefit">
+                             <div class="chart">
+                                <canvas data-type="line" data-color-datalabels="#2e2a2a"></canvas>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="benefit-one">
+
+
+                        <div class="shareholder">
+                            <div class="buton-shareholder">
+                                <div class="buton-left">
+                                    <a href="shareholder.html">Cổ Đông</a>
+                                </div>
+
+                                <div class="buton-right">
+                                    <a href="noshareholder.html">Không Phải Cổ Đông</a>
+                                </div>
+                            </div>
+                            
+                            <div class="table-shareholder">
+                                <table class="item-table">
+                                    
+                                    <thead class="nav-table">
+                                        <tr>
+                                            <th>Tên Cổ Đông</th>
+                                            <th>Lợi ích phải trả</th>
+                                            <th>Theo kế hoạch</th>
+                                        </tr>
+                                    </thead>
                     
-                
-                    <div class="total_section">
-                        <form action="/action_page.php">
-                            <input type="date" id="birthday" name="birthday">
-                        </form>
-                    </div>
+                                    <tbody>
+                                        <tr>
+                                            <td>Cổ Đông A</td>
+                                            <td>$8.400</td>
+                                            <td>$9.000</td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <td>Cổ Đông B</td>
+                                            <td>$8.100</td>
+                                            <td>$7.900</td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <td>Cổ Đông C</td>
+                                            <td>$9.700</td>
+                                            <td>$10.200</td>
+                                        </tr>
 
-                    <div class="total_section">
-                        <a href="all_time.html" class="totalBtn">All Time</a>
-                    </div>
+                                        <tr>
+                                            <td>Cổ Đông D</td>
+                                            <td>$11.700</td>
+                                            <td>$10.800</td>
+                                        </tr>
 
-                    <div class="total_section">
-                        <a href="part_time.html" class="total_section_value1">Part Time</a>
-                    </div>
-                </div>
-
-                <div class="chart">
-                    <canvas data-type="bar" data-color-datalabels="#ffffff"></canvas>
-                </div>
-
-                <div class="footer">
-                    <table class="item-footer">
+                                        <tr>
+                                            <td>Cổ Đông E</td>
+                                            <td>$8.700</td>
+                                            <td>$9.200</td>
+                                        </tr>
+                                    </tbody>
+                    
+                                </table>
+                            </div>  
                         
-                        <thead class="nav-footer">
-                            <tr>
-                                <th>Date</th>
-                                <th>Tên nhân viên</th>
-                                <th>Giới tính</th>
-                                <th>Dân tộc</th>
-                                <th>Bộ phận</th>
-                                <th>Thu nhập</th>
-        
-                            </tr>
-                        </thead>
-        
-                        <tbody>
-                            <tr>
-                                <td>10/12/2022</td>
-                                <td>Nguyễn Văn Anh</td>
-                                <td>Nam</td>
-                                <td>Kinh</td>
-                                <td>IT</td>
-                                <td>$5.000</td>
-                            </tr>
-        
-                            <tr>
-                                <td>02/07/2022</td>
-                                <td>Nguyễn Thị Bưởi</td>
-                                <td>Nữ</td>
-                                <td>Kinh</td>
-                                <td>Phòng kế toán</td>
-                                <td>$3.500</td>
-                            </tr>
-        
-                            <tr>
-                                <td>21/10/2022</td>
-                                <td>Nguyễn Hoàng Hà</td>
-                                <td>Nam</td>
-                                <td>Kinh</td>
-                                <td>IT</td>
-                                <td>$4.000</td>
-                            </tr>
-        
-                            <tr>
-                                <td>15/01/2022</td>
-                                <td>Trần Thị Hiền</td>
-                                <td>Nam</td>
-                                <td>Kinh</td>
-                                <td>Phòng Marketing</td>
-                                <td>$3.700</td>
-                            </tr>
-        
-                            <tr>
-                                <td>10/12/2022</td>
-                                <td>Trần Quyết Chiến</td>
-                                <td>Nam</td>
-                                <td>Kinh</td>
-                                <td>IT</td>
-                                <td>$10.000</td>
-                            </tr>
-                        </tbody>
-        
-                    </table>
+                        </div>
+
+                    </div>
+
+
                 </div>
 
-            </div> 
-            <!-- <div class="chart">
-                <canvas data-type="line" data-color-datalabels="#2e2a2a"></canvas>
-              </div> -->
-              <!-- <div class="chart">
-                <canvas data-type="bar" data-color-datalabels="#ffffff"></canvas>
-              </div> -->
+            </div>
+
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="./main.js"></script>
 </body>
